@@ -52,6 +52,7 @@ plugin 'aasm', :git => "git://github.com/rubyist/aasm.git"
 plugin 'asset_packager', :git => "git://github.com/sbecker/asset_packager.git"
 plugin 'acts_as_soft_deletable', :git => "git://github.com/ajh/acts_as_soft_deletable.git"
 plugin 'searchlogic', :git => "git://github.com/binarylogic/searchlogic.git"
+plugin 'yaml_db', :git => "git://github.com/adamwiggins/yaml_db.git"
 
 git :init
 
@@ -61,6 +62,7 @@ log/*.log
 tmp/**/*
 config/database.yml
 db/*.sqlite3
+db/data.yml
 tmp/**/*
 *.swp
 END
