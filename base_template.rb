@@ -38,6 +38,10 @@ if yes?("Do you want to use RSpec?")
   generate :rspec
 end
 
+if yes?("Do you want to use New Relic's RPM?")
+  plugin "newrelic_rpm", :svn => "http://newrelic.rubyforge.org/svn/newrelic_rpm"
+end
+
 # plugins
 #
 plugin 'limerick_rake', :git => "git://github.com/thoughtbot/limerick_rake.git"
